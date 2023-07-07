@@ -37,9 +37,6 @@
         </div>
       </div>
     </div>
-    <div>
-      <h2>WOW</h2>
-    </div>
   </div>
 </template>
 <script src="./scripts/homepage"></script>

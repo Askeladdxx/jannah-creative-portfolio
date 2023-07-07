@@ -12,35 +12,19 @@
         <h1 class="text-center">Jannah Gail <br />Creative Portfolio</h1>
       </div>
       <div class="row justify-center">
-        <q-btn
-          flat
-          class="q-mx-md"
-          color="primary"
-          label="Game Character"
-          @click="onClick"
-          no-caps
-        />
-        <q-btn
-          flat
-          class="q-mx-md"
-          color="primary"
-          label="Icons"
-          no-caps
-          @click="onClick"
-        />
-        <q-btn
-          flat
-          class="q-mx-md"
-          color="primary"
-          label="Product Designs"
-          no-caps
-          @click="onClick"
-        />
+        <qbtn
+          dense
+          v-for="(button, index) in buttons"
+          :key="index"
+          @click="handleButtonClick(button)"
+        >
+          {{ button }}
+        </qbtn>
       </div>
     </div>
   </div>
 </template>
-<script src="./scripts/homepage.js"></script>
+<script src="./scripts/homepage"></script>
 
 <style lang="scss">
 @import "./styles/portfolio.scss";

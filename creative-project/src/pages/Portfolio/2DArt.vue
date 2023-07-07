@@ -21,24 +21,8 @@
     </div>
     <div class="body column items-center q-mt-xl">
       <div class="q-pt-lg">
-        <h1 class="intro-header text-center q-mb-xl text-bold">Jannah Gail</h1>
+        <h1 class="intro-header text-center q-mb-xl text-bold">2D Art</h1>
       </div>
-      <div class="flex flex-center">
-        <div v-for="(button, index) in buttons" :key="index">
-          <q-btn
-            dense
-            no-caps
-            flat
-            class="btn-category q-mx-sm bg-teal q-pa-xs text-white"
-            @click="handleButtonClick(button)"
-          >
-            {{ button }}
-          </q-btn>
-        </div>
-      </div>
-    </div>
-    <div>
-      <h2>WOW</h2>
     </div>
   </div>
 </template>

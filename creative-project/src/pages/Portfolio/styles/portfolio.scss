@@ -1,7 +1,21 @@
 .creative-portfolio {
+  background-repeat: no-repeat;
   .navbar-logo {
     height: 70px;
     width: 70px;
     border-radius: 50%;
+  }
+  .navbtns {
+    border-radius: 10%;
+  }
+  .btn-navbar,
+  .btn-category {
+    font-size: medium;
+    border-radius: 10px;
+    background-color: pink !important;
+  }
+  .intro-header {
+    color: pink;
+    font-size: 150px;
   }
 }

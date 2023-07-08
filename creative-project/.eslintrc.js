@@ -8,9 +8,6 @@ module.exports = {
     parser: "@babel/eslint-parser",
     ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
     sourceType: "module", // Allows for the use of imports
-    babelOptions: {
-      configFile: "./creative-project/babel.config.js", // <- workspace relative path
-    },
   },
 
   env: {

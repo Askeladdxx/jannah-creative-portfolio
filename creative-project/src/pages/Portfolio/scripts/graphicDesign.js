@@ -21,6 +21,9 @@ export default {
       } else if (button === "about me") {
         // Navigate to the Logo and Mockup page
         this.$router.push("/about-me");
+      } else if (button === "socials") {
+        // Navigate to the Logo and Mockup page
+        this.$router.push("/socials");
       }
     },
   },

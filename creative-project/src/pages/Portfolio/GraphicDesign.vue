@@ -19,14 +19,13 @@
         </div>
       </div>
     </div>
-    <div class="row items-center justify-around q-mx-lg">
-      <div class="carousel-container col-5 q-pa-md">
+    <div class="row justify-center q-mt-xl">
+      <div class="carousel-container col-4 q-pa-md q-mr-md">
         <q-carousel
           class="carousel-graphic"
           animated
           v-model="slide"
           navigation
-          infinite
           :autoplay="autoplay"
           arrows
           transition-prev="slide-right"
@@ -48,7 +47,8 @@
           />
         </q-carousel>
       </div>
-      <div class="text-container col-6">
+
+      <div class="text-container col-4 q-ml-xl">
         <div>
           <h6 class="carousel-header text-center">graphic design highlights</h6>
         </div>

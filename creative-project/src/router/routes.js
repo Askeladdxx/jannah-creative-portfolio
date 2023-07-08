@@ -33,6 +33,11 @@ const routes = [
     name: "about-me",
     component: () => import("pages/Portfolio/AboutMe.vue"),
   },
+  {
+    path: "/social-media",
+    name: "social-media",
+    component: () => import("pages/Portfolio/SocialsPage.vue"),
+  },
 
   // Always leave this as last one,
   // but you can also remove it

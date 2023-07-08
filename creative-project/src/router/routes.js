@@ -28,6 +28,11 @@ const routes = [
     name: "pixel-art",
     component: () => import("pages/Portfolio/PixelArt.vue"),
   },
+  {
+    path: "/about-me",
+    name: "about-me",
+    component: () => import("pages/Portfolio/AboutMe.vue"),
+  },
 
   // Always leave this as last one,
   // but you can also remove it

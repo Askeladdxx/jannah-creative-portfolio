@@ -2,6 +2,11 @@ body {
   background-color: #3d3d3d;
 }
 .creative-portfolio {
+  .image {
+    height: 350px;
+    width: 1500px;
+    border-radius: 50px;
+  }
   .navbar-logo {
     height: 65px;
     width: 65px;
@@ -24,14 +29,16 @@ body {
     .carousel-graphic {
       width: 600px;
       height: 750px;
+      border-radius: 30px;
     }
   }
 }
-h6,
+
+h4,
 p {
   color: pink;
 }
 p {
   line-height: 30px;
-  font-size: large;
+  font-size: x-large;
 }

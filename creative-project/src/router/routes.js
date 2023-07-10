@@ -38,6 +38,11 @@ const routes = [
     name: "social-media",
     component: () => import("pages/Portfolio/SocialsPage.vue"),
   },
+  {
+    path: "/experience",
+    name: "experience",
+    component: () => import("pages/Portfolio/ExperiencePage.vue"),
+  },
 
   // Always leave this as last one,
   // but you can also remove it

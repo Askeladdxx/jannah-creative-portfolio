@@ -21,7 +21,7 @@
     </div>
     <div class="body column items-center q-mt-xl">
       <div class="q-pt-lg">
-        <h1 class="intro-header text-center q-mb-xl text-bold">About me</h1>
+        <h1 class="intro-header text-center q-mb-xl text-bold">Experience</h1>
       </div>
     </div>
   </div>

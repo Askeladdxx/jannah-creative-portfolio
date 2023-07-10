@@ -31,5 +31,18 @@ export default {
         this.$router.push("/logo-and-mockup");
       }
     },
+    handleNavButtonClick(button) {
+      console.log("Button clicked:", button);
+      // Add your logic here to navigate to the desired destination based on the selected button
+      if (button === "about me") {
+        this.$router.push("/about-me");
+      } else if (button === "socials") {
+        // Navigate to the 3D Art page
+        this.$router.push("/social-media");
+      } else if (button === "experience") {
+        // Navigate to the 2D Art page
+        this.$router.push("/experience");
+      }
+    },
   },
 };
